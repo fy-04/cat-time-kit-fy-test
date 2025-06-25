@@ -1,0 +1,34 @@
+# 开发依赖相关
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试相关
+coverage/
+*.test.js
+
+# 构建相关
+.cache/
+dist/
+
+# 配置文件
+.eslintignore
+.prettierignore
+.prettierrc
+jsconfig.json
+
+# Git相关
+.git/
+.gitignore 

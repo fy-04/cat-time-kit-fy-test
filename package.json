@@ -1,0 +1,64 @@
+{
+  "name": "cat-time-kit-fy-test",
+  "version": "1.0.1",
+  "description": "Vue 2.6 component library",
+  "main": "src/index.js",
+  "keywords": [
+    "vue",
+    "components",
+    "ui",
+    "timeline",
+    "vue2"
+  ],
+  "author": "lwt09",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lwt09/cat-time-kit.git"
+  },
+  "homepage": "https://github.com/lwt09/cat-time-kit#readme",
+  "bugs": {
+    "url": "https://github.com/lwt09/cat-time-kit/issues"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --ext .js,.vue src --fix",
+    "format": "prettier --write \"src/**/*.{js,vue,json,css,scss,md}\"",
+    "prepublishOnly": "npm run lint"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser",
+      "requireConfigFile": false
+    },
+    "rules": {
+      "linebreak-style": "off"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/eslint-parser": "^7.27.5",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-prettier": "^5.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}
