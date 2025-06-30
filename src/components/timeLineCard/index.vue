@@ -11,7 +11,7 @@
           v-if="item.type === 'image'"
           :src="item.content.imageUrl"
           class="record-image"
-          alt="猫咪照片好啦"
+          alt="猫咪照片好啦组件库0626"
         />
         <div v-else-if="item.type === 'text'" class="record-text">
           {{ item.content.text }}
@@ -44,6 +44,7 @@
 
 <script>
 export default {
+  name: "timeLineCard",
   props: {
     record: {
       type: Array,

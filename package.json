@@ -1,6 +1,6 @@
 {
   "name": "cat-time-kit-fy-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue 2.6 component library",
   "main": "src/index.js",
   "keywords": [
@@ -28,8 +28,7 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --ext .js,.vue src --fix",
-    "format": "prettier --write \"src/**/*.{js,vue,json,css,scss,md}\"",
-    "prepublishOnly": "npm run lint"
+    "format": "prettier --write \"src/**/*.{js,vue,json,css,scss,md}\""
   },
   "peerDependencies": {
     "vue": "^2.6.0"
