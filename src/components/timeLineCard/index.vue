@@ -55,6 +55,9 @@ export default {
 
 <style>
 /* 时间轴主体 */
+.timeline-content {
+  border: 2px green solid;
+}
 .timeline-container {
   padding: 15px 0;
 }
